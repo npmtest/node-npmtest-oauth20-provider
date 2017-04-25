@@ -1,6 +1,6 @@
 # npmtest-oauth20-provider
 
-#### test coverage for  [oauth20-provider (v0.6.0)](https://github.com/t1msh/node-oauth20-provider)  [![npm package](https://img.shields.io/npm/v/npmtest-oauth20-provider.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-oauth20-provider) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-oauth20-provider.svg)](https://travis-ci.org/npmtest/node-npmtest-oauth20-provider)
+#### basic test coverage for  [oauth20-provider (v0.6.0)](https://github.com/t1msh/node-oauth20-provider)  [![npm package](https://img.shields.io/npm/v/npmtest-oauth20-provider.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-oauth20-provider) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-oauth20-provider.svg)](https://travis-ci.org/npmtest/node-npmtest-oauth20-provider)
 
 #### OAuth 2.0 provider toolkit for nodeJS
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-oauth20-provider/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-oauth20-provider/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-oauth20-provider/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-oauth20-provider/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-oauth20-provider/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-oauth20-provider/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-oauth20-provider/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-oauth20-provider/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-oauth20-provider/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-oauth20-provider/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-oauth20-provider/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-oauth20-provider/build/coverage.html/index.html)
 
@@ -97,7 +97,8 @@
     "scripts": {
         "test": "mocha --reporter spec"
     },
-    "version": "0.6.0"
+    "version": "0.6.0",
+    "bin": {}
 }
 ```
 
